@@ -1,0 +1,38 @@
+# System files
+.DS_Store
+.AppleDouble
+
+# coverage reports
+htmlcov/
+.coverage
+coverage*.xml
+coverage*.json
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+
+# Locally installed npm packages
+node_modules/
+
+#Pycharm
+.idea/
+
+# other files
+.sass-cache
+.webassets-cache
+*.pyc
+*.sublime-project
+*.sublime-workspace
+*.egg-info
+*.sql
+*.tar
+*.swp
+*.sql
+*.egg-info
+Gemfile.lock
+vim/spell

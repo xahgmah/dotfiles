@@ -1,0 +1,14 @@
+[user]
+	name = Dmytro Shyshov
+	email = xahgmah@gmail.com
+
+[core]
+	excludesfile = ~/.gitignore
+	editor = vim
+
+[color]
+	ui = true
+
+[alias]
+	lo = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+
