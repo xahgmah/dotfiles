@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "Install tmuxinator"
-#gem install tmuxinator
-
 echo "Vimrc symlink"
 rm -f ~/.vimrc
 ln -s ~/.dotfiles/.vimrc ~/.vimrc

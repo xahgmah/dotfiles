@@ -40,7 +40,12 @@ fi
 
 echo "---------------------------------------------------------"
 
-echo "Cloning Mike's dotfiles insto .dotfiles"
+echo "Install tmuxinator"
+gem install tmuxinator
+
+echo "---------------------------------------------------------"
+
+echo "Cloning dotfiles into .dotfiles"
 git clone https://github.com/mhartington/dotfiles.git ~/.dotfiles
 
 echo "---------------------------------------------------------"
