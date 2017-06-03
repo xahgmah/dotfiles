@@ -15,6 +15,8 @@ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 rm -f ~/.gitignore
 ln -s ~/.dotfiles/.gitignore ~/.gitignore
 
+echo "Install Vundle"
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-
-
+echo "Install color scheme"
+git clone git://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized/
