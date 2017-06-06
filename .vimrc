@@ -36,6 +36,8 @@ Plugin 'vim-scripts/indentpython.vim'
 autocmd BufWritePre * %s/\s\+$//e
 
 Plugin 'Chiel92/vim-autoformat'
+" Sort python imports tool. Run :Isort
+Plugin 'fisadev/vim-isort'
 
 let g:formatter_yapf_style = 'pep8'
 
@@ -93,8 +95,8 @@ command! W w !sudo tee % > /dev/null
 call vundle#end()
 filetype plugin indent on
 
-let g:solarized_termcolors=256
 colorscheme solarized
+
 " Change cursor shape for iTerm2 on macOS {
 " bar in Insert mode
 " inside iTerm2
@@ -104,7 +106,7 @@ if $TERM_PROGRAM =~# 'iTerm'
     let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 endif
 
-set backup                  " backups are nice ...
+" set backup                  " backups are nice ...
 set undofile                "so is persistent undo ...
 set undolevels=1000         "maximum number of changes that can be undone
 set undoreload=10000        "maximum number lines to save for undo on a buffer reload

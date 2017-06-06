@@ -4,6 +4,11 @@ echo "Vimrc symlink"
 rm -f ~/.vimrc
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
 
+
+echo "Tmux symlink"
+rm -f ~/.tmux.conf
+ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+
 echo "Bachrc symlink"
 rm -f ~/.bachrc
 ln -s ~/.dotfiles/.bachrc ~/.bachrc
