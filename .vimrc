@@ -113,7 +113,6 @@ set undoreload=10000        "maximum number lines to save for undo on a buffer r
 
 set splitbelow
 set splitright
-
 " ---------Mapping-----------
 
 " Send last closing bracket to next line
