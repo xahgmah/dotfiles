@@ -33,6 +33,7 @@ node_modules/
 *.tar
 *.swp
 *.sql
+*.un~
 *.egg-info
 Gemfile.lock
 vim/spell

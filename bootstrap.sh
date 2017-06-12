@@ -10,8 +10,8 @@ rm -f ~/.tmux.conf
 ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
 
 echo "Bachrc symlink"
-rm -f ~/.bachrc
-ln -s ~/.dotfiles/.bachrc ~/.bachrc
+rm -f ~/.bash_profile
+ln -s ~/.dotfiles/.bash_profile ~/.bash_profile
 
 echo "Git symlinks"
 rm -f ~/.gitconfig
