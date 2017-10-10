@@ -13,6 +13,7 @@ packages=(
     "git"
     "node"
     "tmux"
+    "tmuxinator"
     "reattach-to-user-namespace"
 )
 
