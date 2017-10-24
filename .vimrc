@@ -1,5 +1,6 @@
 "Turn on syntax highlighting
 syntax on
+set background=dark
 colorscheme solarized
 set backspace=2 " make backspace work like most other programs
 set number
