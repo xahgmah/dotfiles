@@ -15,6 +15,7 @@ packages=(
     "tmux"
     "tmuxinator"
     "reattach-to-user-namespace"
+    "bash-completion"
 )
 
 for i in "${packages[@]}"
@@ -44,7 +45,7 @@ gem install tmuxinator
 echo "---------------------------------------------------------"
 
 echo "Cloning dotfiles into .dotfiles"
-git clone https://github.com/mhartington/dotfiles.git ~/.dotfiles
+git clone https://github.com/xahgmah/dotfiles.git ~/.dotfiles
 
 echo "---------------------------------------------------------"
 
