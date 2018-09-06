@@ -50,4 +50,4 @@ git clone https://github.com/xahgmah/dotfiles.git ~/.dotfiles
 echo "---------------------------------------------------------"
 
 echo "Run Bootstrap script"
-sh bootstrap.sh
+sh ~/.dotfiles/bootstrap.sh
